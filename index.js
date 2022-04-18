@@ -9,7 +9,7 @@ app.use(express.urlencoded({ extended: false }));
 mongoose
   .connect(
     // 'mongodb://amjmongodb:4yokJPY5A0tg32Uqpt1GDnPR2iHgnWfAaOFhb0JeZVG2Vi3JF376WeCXRE8e7wwJTnbmN6IA9D3W5qKIeFYBtw==@amjmongodb.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@amjmongodb@/docker-node-mongo',
-    'mongodb://amjmongodb:4yokJPY5A0tg32Uqpt1GDnPR2iHgnWfAaOFhb0JeZVG2Vi3JF376WeCXRE8e7wwJTnbmN6IA9D3W5qKIeFYBtw==@amjmongodb.mongo.cosmos.azure.com:10255/test?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@amjmongodb@',{
+    'mongodb://testappmongo:FOxtsVRj2QKeGNmAO5OJEmB12donVumJkzjffrmIhKmG9lJEbMOqQXvHV0JJjV553mHfcFT0HXt7BEMGdyyINA==@testappmongo.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@testappmongo@',{
       useNewUrlParser: true,
     }
   )
